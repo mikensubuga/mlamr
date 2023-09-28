@@ -1,0 +1,15 @@
+executable = osg_snpcalling_queue.sh
+
+transfer_input_files = bash_results, snp-calling.tar.gz, k12.fasta
+transfer_output_files = snps.tar.gz
+transfer_output_remaps = "snps.tar.gz=snp_results/$(ProcID).tar.gz" 
+
+output = logs/job_quality.$(ClusterID).$(ProcID).out
+error = errout/job_quality.$(ClusterID).$(ProcID).err
+log = errout/job_quality.$(ClusterID).$(ProcID).log
+
+request_cpus = 2
+request_memory = 2GB
+request_disk = 3GB
+
+queue arguments from sampleids.txt

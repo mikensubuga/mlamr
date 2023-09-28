@@ -1,0 +1,17 @@
+executable = osgquality.sh
+
+arguments = sampleids.txt
+
+transfer_input_files = data, snp-calling.tar.gz
+transfer_output_files = my_job.output.tar.gz
+transfer_output_remaps = "my_job.output.tar.gz=quality_control/my_job.output.tar.gz" 
+
+output = logs/job_quality.$(ClusterID).out
+error = errout/job_quality.$(ClusterID).err
+log = errout/job_quality.$(ClusterID).log
+
+request_cpus = 16
+request_memory = 32GB
+request_disk = 10GB
+
+queue 1

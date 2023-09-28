@@ -1,0 +1,4 @@
+## Introduction
+Bacterial isolates analyzed in this study were 42 multidrug resistant E. coli isolated from stool samples from both humans (n = 30) and cattle (n = 12) in pastoralist communities collected between January 2018-March 2019. Most of the isolates (41/42) were resistant to three or more antibiotics (multi-drug resistant) and 21/42 isolates were ESBL producers; 13/30 from human and 8/12 from cattle. Whole Genome Sequencing (WGS) was carried out at the facilities of Kenya Medical Research Institute-Wellcome trust, Kilifi, to determine the phylogenomic changes, virulence and resistant genes.
+
+Iramiot, J. S., Kajumbula, H., Bazira, J., de Villiers, E. P., & Asiimwe, B. B. (2020). Whole genome sequences of multi-drug resistant Escherichia coli isolated in a Pastoralist Community of Western Uganda: Phylogenomic changes, virulence and resistant genes. PLOS ONE, 15(5), e0231852. https://doi.org/10.1371/journal.pone.0231852
